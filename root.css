@@ -1,0 +1,252 @@
+:root {
+  --krepaki-green: #36594b;
+  --krepaki-bg: #f8f8f0;
+  --krepaki-text: #333333;
+}
+
+.welcome-page {
+  background-color: var(--krepaki-bg); /* #f8f8f0 */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Γενικό φόντο */
+body {
+  background-color: var(--krepaki-bg);
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Κεντρική σελίδα */
+.welcome-page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Λογότυπο */
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+/* Τίτλος */
+.welcome-title {
+  color: var(--krepaki-green);
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+/* Υπότιτλος */
+.subtitle {
+  font-size: 1.1rem;
+  color: #6c757d;
+}
+
+/* Κουμπιά */
+.welcome-button {
+  padding: 10px 25px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.btn-green {
+  background-color: var(--krepaki-green);
+  color: white;
+  border: none;
+}
+
+.btn-outline-green {
+  background-color: white;
+  border: 2px solid var(--krepaki-green);
+  color: var(--krepaki-green);
+}
+
+/* Footer */
+footer {
+  font-size: 0.9rem;
+  color: #aaa;
+  margin-bottom: 20px;
+}
+
+
+
+/* Ολόκληρη σελίδα login */
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--krepaki-bg);
+  padding: 20px;
+}
+
+/* Card box */
+.login-card {
+  background-color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-card .form-control {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px 12px;
+  transition: border-color 0.3s;
+}
+
+.login-card .form-control:focus {
+  outline: none;
+  border-color: var(--krepaki-green);
+  box-shadow: 0 0 0 2px rgba(54, 89, 75, 0.2);
+}
+
+.login-card input {
+  margin-bottom: 16px;
+}
+
+/* Τίτλος */
+.login-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: var(--krepaki-green);
+  margin-bottom: 20px;
+}
+
+/* Inputs */
+.login-card .form-control {
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+/* Role επιλογή */
+.role-select {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.role-select label {
+  font-weight: 500;
+  color: var(--krepaki-text);
+}
+
+/* Κουμπί σύνδεσης */
+.btn-green {
+  background-color: var(--krepaki-green);
+  color: white;
+  font-weight: bold;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+}
+
+/* Μηνύματα */
+.error {
+  color: red;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+.success {
+  color: green;
+  font-size: 0.9rem;
+  margin-bottom: 10px;
+}
+
+
+.register-page {
+  background-color: var(--krepaki-bg);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.register-card {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.register-title {
+  color: var(--krepaki-green);
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px 14px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s;
+  font-size: 1rem;
+}
+
+.form-control:focus {
+  border-color: var(--krepaki-green);
+  outline: none;
+}
+
+.btn-green {
+  width: 100%;
+  padding: 12px;
+  background-color: var(--krepaki-green);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.success {
+  color: green;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.remember-link {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* admin */
+
+.bg-sidebar {
+  background-color: var(--krepaki-green);
+}
+
+.bg-content {
+  background-color: var(--krepaki-bg);
+}
